@@ -2,21 +2,21 @@
 #include <string>
 int main() {
 	int num=0;
-	int rowSize = 8;
-	char columSize = 'h';
+	int columnSize = 8;
+	char rowSize = 'h';
 	char array[8][8];
 	// for now just printing the board
-	for (int row = 1; row <= rowSize; row++)
+	for (int column = 1; column <= columnSize; column++)
 	{
-		std::cout << row;
+		std::cout << column;
 		
-		for (char column = 'a'; column <= columSize; column++)
+		for (char row = 'a'; row <= rowSize; row++)
 		{
 			std::cout <<" - ";
 			std::cout << "|";
 			
 			num++;
-			if (num % 8 == 0) {
+			if (num % columnSize == 0) {
 				std::cout << "\n";
 			}
 		}
