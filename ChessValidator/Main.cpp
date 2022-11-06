@@ -1,5 +1,5 @@
 #include"ChessBoard.h"
 int main() {
-    ChessBoard qGame;
-    qGame.Start();
+    ChessBoard GameStart;
+   GameStart.Start();
 }
