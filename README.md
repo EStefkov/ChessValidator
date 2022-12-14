@@ -1,5 +1,4 @@
 # ChessValidator
-# ChessValidator
  
 Chess Validator
 The game of chess is a two-player game and each player start with one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece type moves differently:
