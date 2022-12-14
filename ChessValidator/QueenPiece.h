@@ -1,7 +1,5 @@
 #pragma once
 #include "GamePiece.h"
-#include "RookPiece.h"
-#include "BishopPiece.h"
 class QueenPiece :
     public GamePiece
 {
