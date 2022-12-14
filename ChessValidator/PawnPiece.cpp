@@ -4,7 +4,7 @@ char PawnPiece::PieceSymbol() {
 }
 bool PawnPiece::isRoadFree(int fromX, int fromY, int toX, int toY, GamePiece* GameBoard[8][8]) {
     GamePiece* qpDest = GameBoard[toX][toY];
-
+/*
     if (firstMove == 0) {
         if (GetColor() == 'W') {
             if (toX == fromX + 1 || toX == fromX + 2) {
@@ -20,6 +20,7 @@ bool PawnPiece::isRoadFree(int fromX, int fromY, int toX, int toY, GamePiece* Ga
         }
 
     }
+    */
     if (qpDest == 0) {
         // Destination square is unoccupied
         if (fromY == toY) {
